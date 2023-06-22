@@ -1,0 +1,146 @@
+html{scroll-behavior: smooth;}/*  Cela permet quand tu click sur un lien de voir la page scroller*/
+
+/* modifie l'arriere fond et la police de toute la page */
+*{
+    background-color:#D3A372 ;
+    font-family: Verdana;
+}
+
+
+
+div{
+    border: 1px solid black;
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-family: Verdana;
+    text-transform: uppercase; /*permet de mettre tous en majuscule*/
+    text-decoration: none;
+    color: black;
+    background-color:brown;
+    border-radius:20px; /*permet d'arrondir les bords*/
+    padding:10px
+}
+table{
+    margin:auto;
+    background-color:green;
+}
+
+/*Changement de la taille des caracteres*/
+
+h2{
+    font-size: 45px;
+}
+table td {
+    font-size: 25px;
+}
+
+table th {
+    font-size: 40px;  
+}
+
+h1{
+    font-size: 35px;  
+}
+
+/*taille des images*/
+
+img{
+    width:100%;
+}
+
+img:nth-child(3){
+    width:50%;
+}
+
+/* style des liens hypertexte */
+
+a:link {
+    
+    text-decoration:none;
+    color:#A53524; /*rouge */
+}
+
+a:visited  {
+    color:red;
+}
+a:hover  {
+   color:grey ;
+}
+
+/*style du pied de page */
+
+#pied_de_page{
+    font-size: 20px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius:0px;
+}
+
+ 
+/*Menu avec l'aide de ERWAN KERVAGORET*/
+
+#Accueil{
+    background-color: red;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+#Accueil a{
+    background-color: red; 
+    float: left; /*Met les boutons navigations à gauche */
+    font-size: 16px;
+    color: #f2f2f2;/* gris blanc */
+    padding: 10px 20px; /* Taille du bouton */
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    margin: 0;
+}
+
+#Accueil a u{
+    background-color: red; 
+}
+
+
+/*.active permet de cibler un élément lorsque celui-ci est activé par l'utilisateur*/
+#Accueil a:hover:not(.active), #Accueil a:hover:not(.active) u{ /* Action du bouton lorqu'il est survolé sur le bouton ayant la class "active" */
+    background-color: #ddd; /*bleu */
+    color: black;
+}
+#Accueil .active, #Accueil .active u{ /* Le bouton ayant la classe "active" posséde style différent */
+    background-color: #4CAF50; /*vert */
+    color: black;
+}
+
+a:link:first-child, a:visited:first-child {
+    text-decoration:none;
+    color:black;
+}
+
+
+a:hover:first-child  {
+   color:#F6FB47 ; /*jaune clair */
+}
+
+/*style du bouton */
+button{
+	font-size: 25px;
+
+}
+
+
+#Montaigne, #essais, #humanisme, #Marivaux, #Fausses_confidences, #comedie, #Parcours_associe {
+    padding-top: 1%; /* Permet de mettre le texte sous la barre de navigation*/
+}
+
+
+.tableau p{
+    font-size:20px;
+    margin:auto;
+}
+
